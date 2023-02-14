@@ -1,0 +1,456 @@
+.body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: "Arvo", serif;
+}
+.topbar {
+  height: 82px;
+  background-color: black;
+  color: white;
+  padding: 0px 150px 0px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.topbarDiv {
+  font-family: serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  gap: 118px;
+}
+.topPoster {
+  background-image: url("./assets/man-with-cup-near-brick-wall\ 1\ \(1\).png");
+  padding: 110px 150px 110px 150px;
+  gap: 39px;
+  display: flex;
+  flex-direction: column;
+}
+.topPosterTitle {
+  width: 342px;
+  height: 237px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 79px;
+
+  color: #ffffff;
+}
+.topPosterText {
+  width: 682px;
+  height: 182px;
+
+  font-family: serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+
+  color: #ffffff;
+}
+.button1 {
+  background: #d82329;
+  cursor: pointer;
+  padding: 15px 65px;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 8px;
+}
+.button2 {
+  box-sizing: border-box;
+  width: 342px;
+  height: 56px;
+  background: #fcedee;
+  border: 1px solid #d82329;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 15px 65px 15px 65px;
+  text-decoration: none;
+  color: #d82329;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.topPosterButtons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.discoverTitle {
+  height: 49px;
+  padding-top: 120px;
+  font-family: "Arvo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  color: #d82329;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.discoverRow {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 50px;
+}
+.discoverItem {
+  width: 344px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.discoverItemtext {
+  width: 161px;
+  height: 34px;
+  margin-top: -45px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 34px;
+
+  color: #000000;
+}
+.discoverBorder {
+  margin-top: 25px;
+}
+.discover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+}
+.d1 {
+  background-image: url("./assets/Rectangle\ 4.png");
+  background-repeat: no-repeat;
+}
+.d2 {
+  background-image: url("./assets/Rectangle\ 5\ \(1\).png");
+  background-repeat: no-repeat;
+}
+.d3 {
+  background-image: url("./assets/Rectangle\ 6.png");
+  background-repeat: no-repeat;
+}
+.d4 {
+  background-image: url("./assets/Rectangle\ 4\ \(1\).png");
+  background-repeat: no-repeat;
+}
+.d5 {
+  background-image: url("./assets/Rectangle\ 5\ \(2\).png");
+  background-repeat: no-repeat;
+}
+.d6 {
+  background-image: url("./assets/Rectangle\ 6\ \(1\).png");
+  background-repeat: no-repeat;
+}
+.ourBrands {
+  height: 548px;
+  width: 100%;
+  margin-top: 200px;
+  display: flex;
+}
+.left {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+}
+.right {
+  width: 55%;
+
+  background-image: url("./assets/Rectangle\ 12.png");
+  object-fit: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+.lefttext {
+  width: 408px;
+  height: 333px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+
+  color: #000000;
+}
+.leftItems {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+}
+.brands {
+  width: 70%;
+}
+.awards {
+  padding: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 35px;
+}
+.awardText {
+  width: 1124px;
+  height: 84px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+
+  color: #000000;
+}
+.awardImages {
+  display: flex;
+  align-items: center;
+  gap: 175px;
+}
+.awardItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+.no1 {
+  height: 358px;
+  background-image: url("./assets/Rectangle\ 15.png");
+  object-fit: contain;
+  background-repeat: no-repeat;
+  padding: 50px 150px 50px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.no1Left {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.norRight {
+  width: 500px;
+  background: linear-gradient(90deg, #d82329 0%, #000000 100%);
+  padding: 15px;
+}
+.no1Title {
+  width: 245px;
+  height: 147px;
+
+  font-family: "Arvo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+
+  color: #d82329;
+}
+.no1Button {
+  box-sizing: border-box;
+
+  width: 221px;
+  height: 56px;
+  background: #fcedee;
+  border: 1px solid #d82329;
+  border-radius: 8px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #d82329;
+}
+.noRightBorder {
+  border: 2px solid #ffffff;
+  padding: 15px;
+}
+.no1Text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+
+  color: #ffffff;
+}
+.best {
+  padding: 120px 150px 120px 150px;
+  display: flex;
+  flex-direction: column;
+}
+.bestBody {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bestLeftText {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+
+  color: #000000;
+}
+.questians {
+  height: 303px;
+  padding: 80px 150px 80px 150px;
+  background-image: url("./assets/Group\ 11.png");
+  /* object-fit: contain; */
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.qLeft {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.qleftTitle {
+  width: 469px;
+  height: 98px;
+
+  font-family: "Arvo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+
+  color: #ffffff;
+}
+.qleftText {
+  color: #ffffff;
+}
+.qRight {
+  width: 50%;
+}
+.upgrade {
+  margin-top: 120px;
+  padding: 0 150px 0 150px;
+  background: linear-gradient(
+    266.35deg,
+    #d82329 3.01%,
+    rgba(255, 255, 255, 0) 29.55%
+  );
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+  gap: 50px;
+}
+.upgradeTitle {
+  width: 469px;
+  height: 98px;
+  font-family: "Arvo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+
+  color: #d82329;
+}
+.upgradeText {
+  width: 537px;
+  height: 45px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+
+  color: #000000;
+}
+.upgradeButton {
+  box-sizing: border-box;
+
+  width: 221px;
+  height: 56px;
+  background: #d82329;
+  text-decoration: none;
+  display: flex;
+  border-radius: 8px;
+
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.upgradeRight {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.footer {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 120px;
+}
+.footerIcon {
+  height: 30px;
+  width: 30px;
+}
+.footerItem {
+  display: flex;
+  width: 254px;
+  gap: 20px;
+}
+.footerTitle {
+  width: 168px;
+  height: 25px;
+
+  font-family: "Arvo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  /* identical to box height */
+
+  color: #d82329;
+}
+.footerText {
+  height: 69px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+
+  color: #ffffff;
+}
+.footerBanner {
+  background: #d82329;
+  height: 80px;
+  padding: 0 150px 0 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.fbannerdiv {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
