@@ -31,7 +31,7 @@
 .topPoster {
   background-image: url("./assets/man-with-cup-near-brick-wall\ 1\ \(1\).png");
   /* background-repeat: no-repeat; */
-  background-position: 70% 50%;
+  background-position: 70% 0;
   padding: 60px 150px 60px 150px;
   object-fit: cover;
   gap: 39px;
