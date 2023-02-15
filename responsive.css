@@ -1,6 +1,8 @@
 @media only screen and (max-width: 1168px) {
   .discover {
     grid-template-columns: auto auto;
+    align-items: center;
+    place-items: center;
   }
   .bestBody {
     flex-direction: column;
@@ -180,6 +182,10 @@
   .norRight,
   .noRightBorder {
     width: 90%;
+  }
+  .topPosterTitle {
+    height: auto;
+    line-height: 59px;
   }
 }
 @media only screen and (max-width: 380px) {
