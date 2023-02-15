@@ -1,0 +1,1926 @@
+@media only screen and (max-width: 1168px) {
+  .body {
+    margin: 0;
+    padding: 0;
+    font-family: "Arvo", serif;
+  }
+  .topbar {
+    height: 82px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 0px 100px 0px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .topbarDiv {
+    font-family: serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    display: flex;
+    gap: 118px;
+  }
+  .topPoster {
+    background-image: url("./assets/man-with-cup-near-brick-wall\ 1\ \(1\).png");
+    padding: 110px 150px 110px 150px;
+    object-fit: cover;
+    gap: 39px;
+    display: flex;
+    flex-direction: column;
+  }
+  .topPosterTitle {
+    width: 342px;
+    height: 237px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 79px;
+
+    color: #ffffff;
+  }
+  .topPosterText {
+    width: 682px;
+    height: 182px;
+
+    font-family: serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+
+    color: #ffffff;
+  }
+  .button1 {
+    background: #d82329;
+    cursor: pointer;
+    padding: 15px 65px;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 8px;
+  }
+  .button2 {
+    box-sizing: border-box;
+    width: 342px;
+    height: 56px;
+    background: #fcedee;
+    border: 1px solid #d82329;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 15px 65px 15px 65px;
+    text-decoration: none;
+    color: #d82329;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .topPosterButtons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .discoverTitle {
+    height: 49px;
+    padding-top: 120px;
+    font-family: "Arvo";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    color: #d82329;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .discoverRow {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .discoverItem {
+    width: 304px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .discoverItemtext {
+    width: 161px;
+    height: 34px;
+    margin-top: -45px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 34px;
+
+    color: #000000;
+  }
+  .discoverBorder {
+    margin-top: 25px;
+  }
+  .discover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .d1 {
+    background-image: url("./assets/Rectangle\ 4.png");
+    background-repeat: no-repeat;
+  }
+  .d2 {
+    background-image: url("./assets/Rectangle\ 5\ \(1\).png");
+    background-repeat: no-repeat;
+  }
+  .d3 {
+    background-image: url("./assets/Rectangle\ 6.png");
+    background-repeat: no-repeat;
+  }
+  .d4 {
+    background-image: url("./assets/Rectangle\ 4\ \(1\).png");
+    background-repeat: no-repeat;
+  }
+  .d5 {
+    background-image: url("./assets/Rectangle\ 5\ \(2\).png");
+    background-repeat: no-repeat;
+  }
+  .d6 {
+    background-image: url("./assets/Rectangle\ 6\ \(1\).png");
+    background-repeat: no-repeat;
+  }
+  .ourBrands {
+    height: 548px;
+    width: 100%;
+    margin-top: 200px;
+    display: flex;
+  }
+  .left {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+  }
+  .right {
+    width: 55%;
+
+    background-image: url("./assets/Rectangle\ 12.png");
+    object-fit: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+  }
+  .lefttext {
+    width: 408px;
+    height: 333px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #000000;
+  }
+  .leftItems {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+  }
+  .brands {
+    width: 70%;
+  }
+  .awards {
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 35px;
+  }
+  .awardText {
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+  }
+  .awardImages {
+    display: flex;
+    align-items: center;
+    gap: 175px;
+  }
+  .awardItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .no1 {
+    height: 358px;
+    background-image: url("./assets/Rectangle\ 15.png");
+    object-fit: contain;
+    background-repeat: no-repeat;
+    padding: 50px 100px 50px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .no1Left {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .norRight {
+    width: 500px;
+    background: linear-gradient(90deg, #d82329 0%, #000000 100%);
+    padding: 15px;
+  }
+  .no1Title {
+    width: 245px;
+    height: 147px;
+
+    font-family: "Arvo";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+
+    color: #d82329;
+  }
+  .no1Button {
+    box-sizing: border-box;
+
+    width: 221px;
+    height: 56px;
+    background: #fcedee;
+    border: 1px solid #d82329;
+    border-radius: 8px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #d82329;
+  }
+  .noRightBorder {
+    border: 2px solid #ffffff;
+    padding: 15px;
+  }
+  .no1Text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #ffffff;
+  }
+  .best {
+    padding: 120px 100px 120px 100px;
+    display: flex;
+    flex-direction: column;
+  }
+  .bestLeft {
+    width: 50%;
+  }
+  .bestRight {
+    width: 50%;
+  }
+  .bestRightImage {
+    width: 100%;
+  }
+  .bestBody {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .bestLeftText {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #000000;
+  }
+  .questians {
+    height: 303px;
+    padding: 80px 150px 80px 150px;
+    background-image: url("./assets/Group\ 11.png");
+    /* object-fit: contain; */
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .qLeft {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+  .qleftTitle {
+    width: 469px;
+    height: 98px;
+
+    font-family: "Arvo";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+
+    color: #ffffff;
+  }
+  .qleftText {
+    color: #ffffff;
+  }
+  .qRight {
+    width: 50%;
+  }
+  .upgrade {
+    margin-top: 120px;
+    padding: 0 100px 0 100px;
+    background: linear-gradient(
+      266.35deg,
+      #d82329 3.01%,
+      rgba(255, 255, 255, 0) 29.55%
+    );
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    gap: 50px;
+  }
+  .upgradeTitle {
+    width: 100%;
+    height: auto;
+    font-family: "Arvo";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+
+    color: #d82329;
+  }
+  .upgradeText {
+    width: 100%;
+    height: auto;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #000000;
+  }
+  .upgradeButton {
+    box-sizing: border-box;
+
+    width: 221px;
+    height: 56px;
+    background: #d82329;
+    text-decoration: none;
+    display: flex;
+    border-radius: 8px;
+
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  .upgradeRight {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+  }
+  .footerIcon {
+    height: 30px;
+    width: 30px;
+  }
+  .footerItem {
+    display: flex;
+    width: 254px;
+    gap: 20px;
+  }
+  .footerTitle {
+    width: 168px;
+    height: 25px;
+
+    font-family: "Arvo";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+
+    color: #d82329;
+  }
+  .footerText {
+    height: 69px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #ffffff;
+  }
+  .footerBanner {
+    background: #d82329;
+    height: 80px;
+    padding: 0 150px 0 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .fbannerdiv {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+
+    color: #ffffff;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .body {
+    margin: 0;
+    padding: 0;
+    font-family: "Arvo", serif;
+  }
+  .topbar {
+    height: 82px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 0px 50px 0px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .topbarDiv {
+    font-family: serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    display: flex;
+    gap: 58px;
+  }
+  .topPoster {
+    background-image: url("./assets/man-with-cup-near-brick-wall\ 1\ \(1\).png");
+    padding: 90px 50px 90px 50px;
+    object-fit: cover;
+    gap: 39px;
+    display: flex;
+    flex-direction: column;
+  }
+  .topPosterTitle {
+    width: 342px;
+    height: 237px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 79px;
+
+    color: #ffffff;
+  }
+  .topPosterText {
+    width: 682px;
+    height: 182px;
+
+    font-family: serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+
+    color: #ffffff;
+  }
+  .button1 {
+    background: #d82329;
+    cursor: pointer;
+    padding: 15px 65px;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 8px;
+  }
+  .button2 {
+    box-sizing: border-box;
+    width: 342px;
+    height: 56px;
+    background: #fcedee;
+    border: 1px solid #d82329;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 15px 65px 15px 65px;
+    text-decoration: none;
+    color: #d82329;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .topPosterButtons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .discoverTitle {
+    height: 49px;
+    padding-top: 120px;
+    font-family: "Arvo";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    color: #d82329;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .discoverRow {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .discoverItem {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .discoverItemtext {
+    width: 161px;
+    height: 34px;
+    margin-top: -45px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 34px;
+
+    color: #000000;
+  }
+  .discoverBorder {
+    margin-top: 15px;
+    width: 90%;
+  }
+  .discover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .d1 {
+    background-image: url("./assets/Rectangle\ 4.png");
+    background-repeat: no-repeat;
+  }
+  .d2 {
+    background-image: url("./assets/Rectangle\ 5\ \(1\).png");
+    background-repeat: no-repeat;
+  }
+  .d3 {
+    background-image: url("./assets/Rectangle\ 6.png");
+    background-repeat: no-repeat;
+  }
+  .d4 {
+    background-image: url("./assets/Rectangle\ 4\ \(1\).png");
+    background-repeat: no-repeat;
+  }
+  .d5 {
+    background-image: url("./assets/Rectangle\ 5\ \(2\).png");
+    background-repeat: no-repeat;
+  }
+  .d6 {
+    background-image: url("./assets/Rectangle\ 6\ \(1\).png");
+    background-repeat: no-repeat;
+  }
+  .ourBrands {
+    height: 548px;
+    width: 100%;
+    margin-top: 200px;
+    display: flex;
+  }
+  .left {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color: #f5f5f5;
+  }
+  .right {
+    width: 55%;
+
+    background-image: url("./assets/Rectangle\ 12.png");
+    object-fit: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+  }
+  .lefttext {
+    width: 408px;
+    height: 333px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #000000;
+  }
+  .leftItems {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+  }
+  .brands {
+    width: 70%;
+  }
+  .awards {
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 35px;
+  }
+  .awardText {
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+  }
+  .awardImages {
+    display: flex;
+    align-items: center;
+    gap: 75px;
+  }
+  .awardItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .no1 {
+    height: 358px;
+    background-image: url("./assets/Rectangle\ 15.png");
+    object-fit: contain;
+    background-repeat: no-repeat;
+    padding: 50px 50px 50px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .no1Left {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .norRight {
+    width: 500px;
+    background: linear-gradient(90deg, #d82329 0%, #000000 100%);
+    padding: 15px;
+  }
+  .no1Title {
+    width: 245px;
+    height: 147px;
+
+    font-family: "Arvo";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+
+    color: #d82329;
+  }
+  .no1Button {
+    box-sizing: border-box;
+
+    width: 221px;
+    height: 56px;
+    background: #fcedee;
+    border: 1px solid #d82329;
+    border-radius: 8px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #d82329;
+  }
+  .noRightBorder {
+    border: 2px solid #ffffff;
+    padding: 15px;
+  }
+  .no1Text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #ffffff;
+  }
+  .best {
+    padding: 120px 50px 120px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .bestLeft {
+    width: 50%;
+  }
+  .bestRight {
+    width: 50%;
+  }
+  .bestBody {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .bestLeftText {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #000000;
+  }
+  .questians {
+    height: 303px;
+    padding: 80px 150px 80px 150px;
+    background-image: url("./assets/Group\ 11.png");
+    /* object-fit: contain; */
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .qLeft {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+  .qleftTitle {
+    width: 469px;
+    height: 98px;
+
+    font-family: "Arvo";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+
+    color: #ffffff;
+  }
+  .qleftText {
+    color: #ffffff;
+  }
+  .qRight {
+    width: 50%;
+  }
+  .upgrade {
+    margin-top: 120px;
+    padding: 0 50px 0 50px;
+    background: linear-gradient(
+      266.35deg,
+      #d82329 3.01%,
+      rgba(255, 255, 255, 0) 29.55%
+    );
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    gap: 50px;
+  }
+  .upgradeTitle {
+    width: 100%;
+    height: auto;
+    font-family: "Arvo";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+
+    color: #d82329;
+  }
+  .upgradeText {
+    width: 100%;
+    height: auto;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #000000;
+  }
+  .upgradeButton {
+    box-sizing: border-box;
+
+    width: 221px;
+    height: 56px;
+    background: #d82329;
+    text-decoration: none;
+    display: flex;
+    border-radius: 8px;
+
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  .upgradeLeft {
+    width: 60%;
+  }
+  .upgradeRight {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+  }
+  .footerIcon {
+    height: 30px;
+    width: 30px;
+  }
+  .footerItem {
+    display: flex;
+    width: 254px;
+    gap: 20px;
+  }
+  .footerTitle {
+    width: 168px;
+    height: 25px;
+
+    font-family: "Arvo";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+
+    color: #d82329;
+  }
+  .footerText {
+    height: 69px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #ffffff;
+  }
+  .footerBanner {
+    background: #d82329;
+    height: 80px;
+    padding: 0 50px 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .fbannerdiv {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+
+    color: #ffffff;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .body {
+    margin: 0;
+    padding: 0;
+    font-family: "Arvo", serif;
+  }
+  .topbar {
+    height: auto;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px 50px 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .topbarDiv {
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .topPoster {
+    background-image: url("./assets/man-with-cup-near-brick-wall\ 1\ \(1\).png");
+    padding: 90px 50px 90px 50px;
+    object-fit: cover;
+    gap: 39px;
+    display: flex;
+    flex-direction: column;
+  }
+  .topPosterTitle {
+    width: auto;
+    height: auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 79px;
+
+    color: #ffffff;
+  }
+  .topPosterText {
+    width: 100%;
+    height: auto;
+
+    font-family: serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+
+    color: #ffffff;
+  }
+  .button1 {
+    background: #d82329;
+    cursor: pointer;
+    padding: 15px 65px;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 8px;
+  }
+  .button2 {
+    box-sizing: border-box;
+    width: 342px;
+    height: 56px;
+    background: #fcedee;
+    border: 1px solid #d82329;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 15px 65px 15px 65px;
+    text-decoration: none;
+    color: #d82329;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .topPosterButtons {
+    display: flex;
+    align-items: self-start;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .discoverTitle {
+    padding-top: 120px;
+    font-family: "Arvo";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 49px;
+    color: #d82329;
+    display: flex;
+    width: auto;
+  }
+  .discoverRow {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+  }
+  .discoverItem {
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .discoverItemtext {
+    width: 161px;
+    height: 34px;
+    margin-top: -45px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 34px;
+
+    color: #000000;
+  }
+  .discoverBorder {
+    margin-top: 15px;
+    width: 90%;
+  }
+  .discover {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px;
+  }
+  .d1 {
+    background-image: url("./assets/Rectangle\ 4.png");
+    background-repeat: no-repeat;
+  }
+  .d2 {
+    background-image: url("./assets/Rectangle\ 5\ \(1\).png");
+    background-repeat: no-repeat;
+  }
+  .d3 {
+    background-image: url("./assets/Rectangle\ 6.png");
+    background-repeat: no-repeat;
+  }
+  .d4 {
+    background-image: url("./assets/Rectangle\ 4\ \(1\).png");
+    background-repeat: no-repeat;
+  }
+  .d5 {
+    background-image: url("./assets/Rectangle\ 5\ \(2\).png");
+    background-repeat: no-repeat;
+  }
+  .d6 {
+    background-image: url("./assets/Rectangle\ 6\ \(1\).png");
+    background-repeat: no-repeat;
+  }
+  .ourBrands {
+    height: auto;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  .left {
+    width: 80%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    padding: 0 50px 0 50px;
+    background-color: #f5f5f5;
+  }
+  .right {
+    width: 100%;
+
+    background-image: url("./assets/Rectangle\ 12.png");
+    object-fit: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+  }
+  .lefttext {
+    width: auto;
+    height: 333px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #000000;
+  }
+  .leftItems {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+  }
+  .brands {
+    width: 70%;
+  }
+  .awards {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 35px;
+  }
+  .awardText {
+    height: auto;
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+  }
+  .awardImages {
+    display: flex;
+    align-items: center;
+    gap: 75px;
+    flex-direction: column;
+  }
+  .awardItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .no1 {
+    height: auto;
+    background-image: url("./assets/Rectangle\ 15.png");
+    object-fit: contain;
+    background-repeat: no-repeat;
+    padding: 50px 50px 50px 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .no1Left {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+  }
+  .norRight {
+    width: 100%;
+    background: linear-gradient(90deg, #d82329 0%, #000000 100%);
+    padding: 15px;
+  }
+  .no1Title {
+    width: 90%;
+    height: auto;
+
+    font-family: "Arvo";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+
+    color: #d82329;
+  }
+  .no1Button {
+    box-sizing: border-box;
+
+    width: 221px;
+    height: 56px;
+    background: #fcedee;
+    border: 1px solid #d82329;
+    border-radius: 8px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #d82329;
+  }
+  .noRightBorder {
+    border: 2px solid #ffffff;
+    padding: 15px;
+  }
+  .no1Text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #ffffff;
+  }
+  .best {
+    padding: 120px 50px 120px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .bestLeft {
+    width: 100%;
+  }
+  .bestRight {
+    width: 100%;
+  }
+  .bestBody {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .bestLeftText {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #000000;
+  }
+  .questians {
+    width: auto;
+    height: auto;
+    padding: 80px 50px 80px 50px;
+    background-image: url("./assets/Group\ 11.png");
+    /* object-fit: contain; */
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .qLeft {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+  .qleftTitle {
+    width: 100%;
+    height: auto;
+
+    font-family: "Arvo";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 49px;
+
+    color: #ffffff;
+  }
+  .qleftText {
+    color: #ffffff;
+  }
+  .qRight {
+    width: 100%;
+  }
+  .upgrade {
+    height: auto;
+    margin-top: 120px;
+    padding: 0 50px 0 50px;
+    background: linear-gradient(
+      266.35deg,
+      #d82329 3.01%,
+      rgba(255, 255, 255, 0) 29.55%
+    );
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+    justify-content: center;
+    gap: 50px;
+  }
+  .upgradeTitle {
+    width: 100%;
+    height: auto;
+    font-family: "Arvo";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+
+    color: #d82329;
+  }
+  .upgradeText {
+    width: 100%;
+    height: auto;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #000000;
+  }
+  .upgradeButton {
+    box-sizing: border-box;
+
+    width: 221px;
+    height: 56px;
+    background: #d82329;
+    text-decoration: none;
+    display: flex;
+    border-radius: 8px;
+
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  .upgradeLeft {
+    width: 60%;
+  }
+  .upgradeRight {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .footerIcon {
+    height: 30px;
+    width: 30px;
+  }
+  .footerItem {
+    display: flex;
+    width: 254px;
+    gap: 20px;
+  }
+  .footerTitle {
+    width: 168px;
+    height: 25px;
+
+    font-family: "Arvo";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+
+    color: #d82329;
+  }
+  .footerText {
+    height: 69px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #ffffff;
+  }
+  .footerBanner {
+    background: #d82329;
+    height: auto;
+    padding: 10px 50px 10px 50px;
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+
+    justify-content: space-around;
+    gap: 30px;
+  }
+  .fbannerdiv {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    color: #ffffff;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .body {
+    margin: 0;
+    padding: 0;
+    font-family: "Arvo", serif;
+  }
+  .topbar {
+    height: auto;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px 50px 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .topbarDiv {
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .topPoster {
+    background-image: url("./assets/man-with-cup-near-brick-wall\ 1\ \(1\).png");
+    padding: 60px 30px 60px 30px;
+    object-fit: cover;
+    gap: 39px;
+    display: flex;
+    flex-direction: column;
+  }
+  .topPosterTitle {
+    width: auto;
+    height: auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 79px;
+
+    color: #ffffff;
+  }
+  .topPosterText {
+    width: 100%;
+    height: auto;
+
+    font-family: serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+
+    color: #ffffff;
+  }
+  .button1 {
+    width: 100%;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    background: #d82329;
+    cursor: pointer;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 8px;
+  }
+  .button2 {
+    box-sizing: border-box;
+    width: 100%;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    background: #fcedee;
+    border: 1px solid #d82329;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 15px 65px 15px 65px;
+    text-decoration: none;
+    color: #d82329;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .topPosterButtons {
+    display: flex;
+    align-items: self-start;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .discoverTitle {
+    padding-top: 120px;
+    font-family: "Arvo";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 49px;
+    color: #d82329;
+    display: flex;
+    width: auto;
+  }
+  .discoverRow {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+  }
+  .discoverItem {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .discoverItemtext {
+    width: 161px;
+    height: 34px;
+    margin-top: -45px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 34px;
+
+    color: #d82329;
+  }
+  .discoverBorder {
+    margin-top: 15px;
+    width: 90%;
+  }
+  .discover {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    padding: 30px;
+  }
+  .d1 {
+    background-image: url("./assets/Rectangle\ 4.png");
+    background-repeat: no-repeat;
+  }
+  .d2 {
+    background-image: url("./assets/Rectangle\ 5\ \(1\).png");
+    background-repeat: no-repeat;
+  }
+  .d3 {
+    background-image: url("./assets/Rectangle\ 6.png");
+    background-repeat: no-repeat;
+  }
+  .d4 {
+    background-image: url("./assets/Rectangle\ 4\ \(1\).png");
+    background-repeat: no-repeat;
+  }
+  .d5 {
+    background-image: url("./assets/Rectangle\ 5\ \(2\).png");
+    background-repeat: no-repeat;
+  }
+  .d6 {
+    background-image: url("./assets/Rectangle\ 6\ \(1\).png");
+    background-repeat: no-repeat;
+  }
+  .ourBrands {
+    width: auto;
+    height: auto;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  .left {
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    padding: 0 30px 0 30px;
+    background-color: #f5f5f5;
+  }
+  .right {
+    width: 100%;
+
+    background-image: url("./assets/Rectangle\ 12.png");
+    object-fit: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+  }
+  .lefttext {
+    width: auto;
+    height: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #000000;
+  }
+  .leftItems {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+  }
+  .brands {
+    width: 70%;
+  }
+  .awards {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 35px;
+    margin-bottom: 50px;
+  }
+  .awardText {
+    height: auto;
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+  }
+  .awardImages {
+    display: flex;
+    align-items: center;
+    gap: 75px;
+    flex-direction: column;
+  }
+  .awardItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .no1 {
+    height: auto;
+    background-image: url("./assets/Rectangle\ 15.png");
+    object-fit: contain;
+    background-repeat: no-repeat;
+    padding: 50px 30px 50px 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .no1Left {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+  }
+  .norRight {
+    width: 100%;
+    background: linear-gradient(90deg, #d82329 0%, #000000 100%);
+    padding: 10px;
+  }
+  .no1Title {
+    width: 90%;
+    height: auto;
+
+    font-family: "Arvo";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+
+    color: #d82329;
+  }
+  .no1Button {
+    box-sizing: border-box;
+
+    width: 221px;
+    height: 56px;
+    background: #fcedee;
+    border: 1px solid #d82329;
+    border-radius: 8px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #d82329;
+  }
+  .noRightBorder {
+    border: 2px solid #ffffff;
+    padding: 15px;
+  }
+  .no1Text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #ffffff;
+  }
+  .best {
+    padding: 120px 30px 120px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .bestLeft {
+    width: 100%;
+  }
+  .bestRight {
+    width: 100%;
+  }
+  .bestBody {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .bestLeftText {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #000000;
+  }
+  .questians {
+    width: auto;
+    height: auto;
+    padding: 80px 30px 80px 30px;
+    background-image: url("./assets/Group\ 11.png");
+    /* object-fit: contain; */
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .qLeft {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+  .qleftTitle {
+    width: 100%;
+    height: auto;
+
+    font-family: "Arvo";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 49px;
+
+    color: #ffffff;
+  }
+  .qleftText {
+    color: #ffffff;
+  }
+  .qRight {
+    width: 100%;
+  }
+  .upgrade {
+    height: auto;
+    margin-top: 120px;
+    padding: 0 30px 0 30px;
+    background: linear-gradient(
+      266.35deg,
+      #d82329 3.01%,
+      rgba(255, 255, 255, 0) 29.55%
+    );
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+    justify-content: center;
+    gap: 50px;
+  }
+  .upgradeTitle {
+    width: 100%;
+    height: auto;
+    font-family: "Arvo";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 49px;
+
+    color: #d82329;
+  }
+  .upgradeText {
+    width: 100%;
+    height: auto;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #000000;
+  }
+  .upgradeButton {
+    box-sizing: border-box;
+
+    width: 221px;
+    height: 56px;
+    background: #d82329;
+    text-decoration: none;
+    display: flex;
+    border-radius: 8px;
+
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  .upgradeLeft {
+    width: 60%;
+  }
+  .upgradeRight {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footerIcon {
+    height: 30px;
+    width: 30px;
+  }
+  .footerItem {
+    display: flex;
+
+    width: 80%;
+    gap: 20px;
+  }
+  .footerTitle {
+    width: 168px;
+    height: 25px;
+
+    font-family: "Arvo";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+
+    color: #d82329;
+  }
+  .footerText {
+    height: 69px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #ffffff;
+  }
+  .footerBanner {
+    background: #d82329;
+    height: auto;
+    padding: 10px 50px 10px 50px;
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+
+    justify-content: space-around;
+    gap: 30px;
+  }
+  .fbannerdiv {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    flex-direction: column;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    color: #ffffff;
+  }
+}
