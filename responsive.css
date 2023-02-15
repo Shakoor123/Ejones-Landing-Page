@@ -1423,17 +1423,15 @@
     flex-direction: column;
 
     justify-content: space-around;
-    gap: 30px;
+    gap: 10px;
   }
   .fbannerdiv {
     display: flex;
     align-items: center;
-    gap: 50px;
-
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 21px;
+    line-height: 11px;
     /* identical to box height */
 
     color: #ffffff;
@@ -1929,12 +1927,12 @@
     flex-direction: column;
 
     justify-content: space-around;
-    gap: 30px;
+    gap: 10px;
   }
   .fbannerdiv {
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 10px;
     flex-direction: column;
     font-style: normal;
     font-weight: 400;
