@@ -89,7 +89,7 @@
 }
 .discoverTitle {
   height: 49px;
-  padding-top: 120px;
+  padding: 0;
   font-family: "Arvo";
   font-style: normal;
   font-weight: 700;
@@ -140,6 +140,7 @@
   color: #d82329;
 }
 .discover {
+  margin-top: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -175,9 +176,12 @@
   width: 100%;
   margin-top: 200px;
   display: flex;
+  align-items: flex-start;
 }
 .left {
   width: 45%;
+  height: 100%;
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -185,7 +189,7 @@
 }
 .right {
   width: 55%;
-
+  height: 100%;
   background-image: url("./assets/Rectangle\ 12.png");
   object-fit: contain;
   background-repeat: no-repeat;
@@ -193,19 +197,23 @@
   align-items: center;
 }
 .lefttext {
-  width: 408px;
-  height: 333px;
+  width: auto;
+  height: auto;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
-
+  display: flex;
   color: #000000;
 }
 .leftItems {
+  padding: 50px;
+
+  gap: 30px;
   display: flex;
   flex-direction: column;
-  gap: 27px;
+  align-items: center;
+  justify-content: center;
 }
 .brands {
   width: 70%;
@@ -305,6 +313,7 @@
   padding: 120px 150px 120px 150px;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
 }
 .bestBody {
   display: flex;
@@ -504,6 +513,9 @@
   outline: none;
   font-size: 15px;
   transition: 0.4s;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .active,
@@ -516,4 +528,8 @@
   display: none;
   background-color: white;
   overflow: scroll;
+}
+
+.plus {
+  font-weight: 700;
 }
