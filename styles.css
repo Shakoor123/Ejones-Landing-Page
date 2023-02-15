@@ -22,9 +22,16 @@
   display: flex;
   gap: 118px;
 }
+.topText {
+  text-decoration: none;
+  color: white;
+}
 .topPoster {
   background-image: url("./assets/man-with-cup-near-brick-wall\ 1\ \(1\).png");
-  padding: 110px 150px 110px 150px;
+  /* background-repeat: no-repeat; */
+  background-position: 50% 50%;
+  padding: 60px 150px 60px 150px;
+  object-fit: cover;
   gap: 39px;
   display: flex;
   flex-direction: column;
@@ -115,11 +122,22 @@
   font-weight: 400;
   font-size: 26px;
   line-height: 34px;
-
-  color: #000000;
 }
+
 .discoverBorder {
   margin-top: 25px;
+  height: 420px;
+  border: 3px solid black;
+  width: 80%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.discoverBorder:hover {
+  border: 3px solid #d82329;
+}
+.discoverBorder:hover > .discoverItemtext {
+  color: #d82329;
 }
 .discover {
   display: flex;
@@ -307,9 +325,10 @@
   background-image: url("./assets/Group\ 11.png");
   /* object-fit: contain; */
   background-repeat: no-repeat;
+  object-fit: cover;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 .qLeft {
   width: 40%;
@@ -337,6 +356,10 @@
 }
 .qRight {
   width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 .upgrade {
   margin-top: 120px;
@@ -409,6 +432,7 @@
   display: flex;
   width: 254px;
   gap: 20px;
+  text-decoration: none;
 }
 .footerTitle {
   width: 168px;
@@ -425,7 +449,7 @@
 }
 .footerText {
   height: 69px;
-
+  text-decoration: none;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -450,7 +474,46 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
-  /* identical to box height */
 
   color: #ffffff;
+}
+.fbannerText {
+  text-decoration: none;
+  color: white;
+}
+
+.whatsapp {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 10px;
+  left: 95%;
+}
+/* accodian */
+
+.accordion {
+  background-color: #fef8f8;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+  background-color: #f2ecec;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: scroll;
 }
