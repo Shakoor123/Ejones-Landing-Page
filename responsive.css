@@ -128,6 +128,16 @@
   .discover {
     width: 100%;
   }
+  .t2,
+  .t3 {
+    display: none;
+  }
+  .topbarImage {
+    scale: 0.8;
+  }
+  .topbar {
+    gap: 5px;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -184,33 +194,71 @@
   }
   .norRight,
   .noRightBorder {
-    width: 90%;
+    width: auto;
   }
   .topPosterTitle {
     height: auto;
     line-height: 59px;
   }
   .discover {
+    padding: 0;
     width: 100%;
     grid-template-columns: auto;
     align-items: center;
     place-items: center;
     justify-content: center;
   }
-  .discoverImages,
+
+  .topPosterText,
+  .lefttext,
+  .awardText,
+  .no1Text.bestLeftText,
+  .panel,
+  .upgradeText,
+  .footerText,
+  .discoverItemtext {
+    font-size: 16px;
+  }
   .discoverItem {
+    width: 300px;
+  }
+  .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+  }
+  .brands {
+    width: 90%;
+  }
+  .no1Left {
+    align-items: center;
+  }
+  .no1Button {
+    width: 80%;
+  }
+  .best {
+    margin-top: 0px;
+  }
+  .upgradeButton {
     width: 100%;
   }
-  .discoverBorder {
-    width: 90%;
+  .topPosterButtons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .no1 {
+    background-position: 30% 0;
   }
 }
-/* @media only screen and (max-width: 380px) {
-  .discoverImages,
+@media only screen and (max-width: 330px) {
   .discoverItem {
-    width: 100%;
+    width: 280px;
   }
-  .discoverBorder {
-    width: 90%;
+}
+@media only screen and (max-width: 285px) {
+  .discoverItem {
+    width: 230px;
   }
-} */
+}

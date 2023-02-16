@@ -25,7 +25,7 @@
 }
 .topText {
   text-decoration: none;
-
+  font: 1em sans-serif;
   color: white;
 }
 .topPoster {
@@ -274,7 +274,7 @@
 .norRight {
   width: 500px;
   background: linear-gradient(90deg, #d82329 0%, #000000 100%);
-  padding: 15px;
+  padding: 5px;
 }
 .no1Title {
   width: 245px;
@@ -304,7 +304,7 @@
 }
 .noRightBorder {
   border: 2px solid #ffffff;
-  padding: 15px;
+  padding: 5px;
 }
 .no1Text {
   font-style: normal;
