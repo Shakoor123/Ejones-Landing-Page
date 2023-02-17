@@ -1,7 +1,7 @@
 .body {
   margin: 0;
   padding: 0;
-  width: 100%;
+  max-width: auto;
   font-family: "Arvo", serif;
 }
 .topbar {
@@ -30,9 +30,12 @@
 }
 .topPoster {
   background-image: url("./assets/man-with-cup-near-brick-wall\ 1\ \(1\).png");
-  /* background-repeat: no-repeat; */
-  background-position: 70% 0;
+  background-repeat: no-repeat;
+  background-position: 70% 20%;
   padding: 60px 150px 60px 150px;
+  background-position: center;
+  background-size: cover;
+
   object-fit: cover;
   gap: 39px;
   display: flex;
@@ -179,7 +182,7 @@
   align-items: flex-start;
 }
 .left {
-  width: 45%;
+  width: 50%;
   height: 100%;
 
   display: flex;
@@ -188,7 +191,7 @@
   background-color: #f5f5f5;
 }
 .right {
-  width: 55%;
+  width: 50%;
   height: 100%;
   background-image: url("./assets/Rectangle\ 12.png");
   background-position: 75% 0;
@@ -260,7 +263,7 @@
   background-image: url("./assets/Rectangle\ 15.png");
   object-fit: contain;
   background-repeat: no-repeat;
-  padding: 50px 150px 50px 150px;
+  padding: 50px 50px 50px 150px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -304,7 +307,7 @@
 }
 .noRightBorder {
   border: 2px solid #ffffff;
-  padding: 5px;
+  padding: 10px;
 }
 .no1Text {
   font-style: normal;
@@ -341,11 +344,14 @@
 }
 .questians {
   height: 303px;
+  width: auto;
   padding: 80px 150px 80px 150px;
   background-image: url("./assets/Group\ 11.png");
   /* object-fit: contain; */
   background-repeat: no-repeat;
-  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -523,20 +529,51 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-radius: 20px;
+  font-weight: 600;
+  font-family: sans-serif;
 }
 
+.accodianPanel {
+  background-color: white;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
 .active,
 .accordion:hover {
-  background-color: #f2ecec;
+  background-color: #ffffff;
 }
-
+.active {
+  color: #d82329;
+}
 .panel {
   padding: 0 18px;
   display: none;
   background-color: white;
   overflow: visible;
+  font-family: sans-serif;
 }
 
 .plus {
   font-weight: 700;
 }
+
+.topPoster {
+  animation: dropDown ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes dropDown {
+  0% {
+    margin-top: -100px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+
+/* .topPosterTitle {
+  transition: 2s ease-out;
+  transform: translateY(0);
+} */
