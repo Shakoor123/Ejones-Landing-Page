@@ -207,6 +207,7 @@
     align-items: center;
     place-items: center;
     justify-content: center;
+    gap: 10px;
   }
 
   .topPosterText,
@@ -220,7 +221,7 @@
     font-size: 16px;
   }
   .discoverItem {
-    width: 300px;
+    width: 280px;
   }
   .right {
     display: flex;
@@ -272,11 +273,17 @@
 }
 @media only screen and (max-width: 330px) {
   .discoverItem {
-    width: 280px;
+    width: 250px;
+    object-fit: cover;
+    height: 430px;
+  }
+  .discoverBorder {
+    height: 400px;
+    margin-top: 10px;
   }
 }
 @media only screen and (max-width: 285px) {
   .discoverItem {
-    width: 230px;
+    width: 220px;
   }
 }

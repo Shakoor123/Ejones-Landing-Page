@@ -3,6 +3,7 @@
   padding: 0;
   max-width: auto;
   font-family: "Arvo", serif;
+  scroll-behavior: smooth;
 }
 .topbar {
   height: 82px;
@@ -324,7 +325,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 30px;
+  gap: 10px;
 }
 .bestBody {
   display: flex;
@@ -577,3 +578,12 @@
   transition: 2s ease-out;
   transform: translateY(0);
 } */
+
+.button1:hover,
+.button2:hover,
+.no1Button:hover,
+.upgradeButton:hover,
+.accodianPanel:hover,
+.instagram:hover {
+  scale: 1.02;
+}
