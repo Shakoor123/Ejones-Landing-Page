@@ -222,7 +222,19 @@
   }
   .discoverItem {
     width: 280px;
+    height: 300px;
   }
+  .d1,
+  .d2,
+  .d3,
+  .d4,
+  .d5,
+  .d6 {
+    /* background-size: 95% 81%;
+    background-position: center; */
+    background-size: 85% 88%;
+  }
+
   .right {
     display: flex;
     align-items: center;
@@ -270,20 +282,41 @@
   .upgradeLeft {
     width: 100%;
   }
+  .ourBrands {
+    margin-top: 80px;
+  }
 }
 @media only screen and (max-width: 330px) {
   .discoverItem {
     width: 250px;
-    object-fit: cover;
-    height: 430px;
+    height: 280px;
   }
   .discoverBorder {
-    height: 400px;
     margin-top: 10px;
+  }
+  .awardimg {
+    width: 270px;
+    height: auto;
   }
 }
 @media only screen and (max-width: 285px) {
   .discoverItem {
     width: 220px;
+    height: 250px;
+  }
+  .d1,
+  .d2,
+  .d3,
+  .d4,
+  .d5,
+  .d6 {
+    /* background-size: 95% 81%;
+    background-position: center; */
+    background-size: 85% 88%;
+    background-color: rgb(247, 241, 241);
+  }
+  .awardimg {
+    width: 230px;
+    height: auto;
   }
 }
